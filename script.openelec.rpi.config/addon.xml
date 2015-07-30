@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.openelec.rpi.config"
+       name="OpenELEC RPi Config"
+       version="0.20.1"
+       provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="os.openelec.tv" version="2.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Unofficial Raspberry Pi configuration add-on for OpenELEC</summary>
+    <description>This XBMC add-on for OpenELEC allows Raspberry Pi settings such as overclocking to be configured without having to manually edit /flash/config.txt.</description>
+    <disclaimer>This add-on has the potential to void the warranty of your Raspberry Pi. Use at your own risk!</disclaimer>
+    <forum>http://openelec.tv/forum/124-raspberry-pi/68533</forum>
+    <website>http://ls80.github.io/script.openelec.rpi.config</website>
+    <source>http://github.com/LS80/script.openelec.rpi.config</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
+</addon>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.multi.cam"
+       name="Multi Cam"
+       version="0.0.1"
+       provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">View multiple camera snapshots</summary>
+    <description lang="en">View jpeg snapshots from up to 4 cameras in a grid.</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
+</addon>

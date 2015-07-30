@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.olympics" name="Olympics Video" version="0.1.0" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+    <import addon="script.module.livestreamer" version="1.12.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary>Olympics</summary>
+    <description>Live Olympics (24 channels)</description>
+    <website>http://www.bbc.co.uk/sport</website>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
+</addon>

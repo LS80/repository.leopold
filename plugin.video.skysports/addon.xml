@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.skysports" name="Sky Sports Video" version="0.3.0" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.kodiswift" version="0.0.8" optional="false"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1" optional="false"/>
+    <import addon="script.module.requests" version="2.3.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary>Watch videos clips from Sky Sports</summary>
+    <description>This video plugin provides access to sports news and game highlights from skysports.com.</description>
+    <website>http://www1.skysports.com/watch/video</website>
+    <source>https://github.com/LS80/plugin.video.skysports.git</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
+</addon>

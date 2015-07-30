@@ -1,0 +1,49 @@
+0.0.21
+ - Added an option to show the mjpeg stream instead of the main h.264 encoded video.
+   This has the advantage of being much closer to a true live stream without any delay caused by buffering.
+   The disadvantages are the lack of sound, poorer image quality/frame rate and a squashed 4:3 aspect ratio.
+
+ - Improved the frame rate of the video preview to 10 fps
+   by using the mjpeg stream instead of individual jpeg snapshots.
+
+0.0.20
+ - Fixed log spam when using move buttons.
+ - Handle errors while retrieving snapshots for the preview.
+
+0.0.19
+ - Added checks for problem characters in the user name and password.
+
+0.0.18
+ - Fixed a broken dependency which caused the "Incompatible" message.
+
+0.0.17
+ - Make the previously playing media resume more quickly.
+
+0.0.16
+ - Fixed a service script error when there is a network connection problem.
+
+0.0.15
+ - Fixed a service script error when the camera is not configured.
+
+0.0.14
+ - Use the motion and sound detection settings from the camera when starting XBMC.
+   If a setting such as the motion sensitivity is changed in the camera web interface
+   this value will be kept.
+
+0.0.13
+ - Added sound detection for activating the preview window.
+
+0.0.12
+ - Fixed a script error when add-on is launched while a file is playing.
+ - Added a settings button to the main video view.
+ - Scale the preview close button the same way as the preview window.
+ - Reorganised the motion settings into groups.
+
+0.0.11
+ - Made it less likely to miss a motion event.
+
+0.0.10
+ - The main view can now be activated on touch screens by touching the preview window.
+
+0.0.9
+ - First release.

@@ -1,0 +1,600 @@
+5.1.2
+ - Fix parsing of Milhouse build information from the forum.
+
+5.1.1
+ - Fix extracting Official Releases.
+
+5.1.0
+ - Added a multi-purpose commmand line script.
+
+5.0.0
+ - Initial version for LibreELEC only.
+
+4.39.0
+ - Add LibreELEC support.
+
+4.38.1
+ - Fixed a script error when retrieving dates for official releases.
+
+4.38.0
+ - Reversed the order of the builds in the command line script.
+
+4.37.2
+ - Added new Milhouse RPi builds thread for v17.
+
+4.37.1
+ - Fixed the notification of a pending installation.
+
+4.37.0
+ - Added a Spanish translation. Thanks Gaudi.
+
+4.36.1
+ - Fixed a script error when the update directory does not exist.
+
+4.36.0
+ - Make the history dialog the same size as the main dialog.
+ - Tooltip for selecting a build source.
+
+4.35.0
+ - Changed the build date display to use the Kodi short date format.
+ - Added a setting to restore the old build date format.
+ - Fixed toolbar button tooltip not showing.
+ - Fixed a problem with re-enabling rpi overclocking.
+
+4.34.1
+ - Fixed a problem with manually defined URLs.
+ - Fixed the alignment of the build type label.
+
+4.34.0
+ - Moved DarkAngel2401 Dual Audio Builds from the default list
+   to the custom sources so it can be disabled
+ - Added an extra custom source slot
+
+4.33.0
+ - Fixed build summaries not showing when the build list is re-focused.
+ - Show toolbar tooltips in white to visually separate them from
+   the build summaries.
+
+4.32.0
+ - Added a button to the toolbar to cancel a pending update,
+   instead of the settings action.
+ - Added tooltips for toolbar buttons to the bottom information area.
+
+4.31.0
+ - Made it easier to add additional Milhouse build folders.
+
+4.30.0
+ - Made it possible to fit all sources on screen.
+
+4.29.2
+ - Additional fix for the script error when installing releases.
+
+4.29.1
+ - Fixed a script error when installing releases.
+
+4.29.0
+ - Use full screen height for the main dialog.
+ - Two custom sources can be defined.
+ - Added a subdirectory setting for custom sources.
+ - Milhouse custom sources can be defined more easily.
+ - Notify about a pending installation.
+ - Added a setting for the reboot countdown time.
+ - Removed the version number from every log line.
+ - Stopped spurious error messages about creating the symbolic link.
+
+4.28.0
+ - Add updates made with the command line script to the installation history.
+
+4.27.0
+ - Added a button to show the installation history.
+
+4.26.0
+ - Made the history script runnable under OpenELEC.
+
+4.25.0
+ - Use the tar file for the update even when verifying the images.
+ - Reduced the new build notification time when playing video.
+
+4.24.1
+ - Fixed the devupdate command line script (broken since 4.23.0).
+
+4.24.0
+ - Show the correct build information For Nvidia_Legacy.x86_64 and Generic Milhouse builds.
+
+4.23.0
+ - Show a notification if the install was unsuccessful.
+ - Keep a history of installed builds.
+
+4.22.0
+ - Fixed installs of Milhouse debug builds not notifying as successful.
+ - Kodi debug logging is now required for the add-on DEBUG messages to show.
+
+4.21.0
+ - Stop more than one instance of the add-on running at the same time.
+ - Adjusted the source name text colour so it doesn't look "greyed out".
+ - Removed support for the obsolete ATV2.
+
+4.20.0
+ - Made Milhouse builds available for platforms other than RPi.
+
+4.19.1
+ - Fixed a service error when the selected source has no builds available.
+
+4.19.0
+ - Added Nvidia_Legacy.x86_64 and WeTek_Play.arm as override build types.
+
+4.18.1
+ - Fixed a possible issue with the custom build setting.
+
+4.18.0
+ - Settings reorganised.
+
+4.17.0
+ - Fixed compatibility with the latest OpenELEC builds where some files
+   in /etc have been removed.
+ - Automatically set file permissions and create a devupdate symlink in the
+   home directory to more easily run the cmd line script.
+
+4.16.3
+ - Fixed a problem with empty build summaries when changing the source.
+ - Fixed the scrollbar height.
+
+4.16.2
+ - Fixed a problem with dev build sources.
+
+4.16.1
+ - Fixed problems parsing the Milhouse build summaries.
+
+4.16.0
+ - Fixed the RPi system partition size check.
+ - Command line download can now be cancelled with Ctrl-C.
+
+4.15.0
+ - Show Milhouse debug builds when the system partition is large enough.
+
+4.14.0
+ - Do not block the gui when waiting to set the build information.
+ - Use a slide animation when closing the build selection dialog.
+ - Fixed the download script (broken since 4.12.0)
+
+4.13.0
+ - Info now toggles the build details dialog on and off.
+
+4.12.0
+ - Include the Build Highlights section from the Milhouse release posts.
+
+4.11.1
+ - Fixed sometimes showing the build info for a different build.
+
+4.11.0
+ - Added a build details dialog for Milhouse RPi builds (press Info).
+ - Added a button to open the add-on settings.
+ - Fixed a problem with Milhouse build summaries not showing when the source
+   is re-selected.
+
+4.10.0
+ - Show older releases down to 3.95.1.
+ - Fixed build information not updating when paging up/down.
+
+4.9.0
+ - Fixed missing Milhouse build information.
+
+4.8.2
+ - Fixed missing build information for Milhouse builds with a letter suffix.
+
+4.8.1
+ - Fixed not waiting for the backup to complete.
+
+4.8.0
+ - Handle the latest development build file names with the added version number.
+
+4.7.0
+ - Enabled Milhouse builds as a custom source.
+
+4.6.1
+ - Updated the forum thread url for Milhouse build descriptions.
+
+4.6.0
+ - Fixed the detection of the installed build.
+ - Align dates in the list of builds.
+ - Decompress when required when using the command line download script.
+
+4.5.0
+ - Added commit messages to the info area for Official Snapshots
+   and Chris Swan RPi Builds.
+ - By default use the commit hash for development build names
+   instead of the commit count.
+ - Fixed the missing installation notification.
+
+4.4.0
+ - Added build information for Milhouse RPi Builds.
+ - Fixed RPi2 overclock disable.
+ - Blue highlight for build name in dialogs.
+
+4.3.0
+ - Only show RPi build sources for RPi
+
+4.2.0
+ - Added a setting to control the new build check interval.
+ - Bug fixes.
+
+4.1.0
+ - Fixed a problem with the default archive directory due to a missing trailing slash.
+ - Flipped some default settings.
+
+4.0.0
+ - Updated gui now supports browsing through all build sources.
+
+3.14.0
+ - Support Milhouse builds with a letter suffix, e.g. #0308b.
+
+3.13.0
+ - Fixed Official Release downloads.
+
+3.12.0
+ - Support the new naming scheme for Milhouse builds.
+
+3.11.0
+ - Add RPi.arm and RPi2.arm as build types for the override option, to enable
+   switching between the two with the same SD card.
+
+3.10.0
+ - Support Milhouse builds for RPi2.
+
+3.9.0
+ - Updated the Milhouse URL.
+ - Added a download.py script to download updates on the command line.
+
+3.8.1
+ - Fixed a problem with the Milhouse builds.
+
+3.8.0
+ - Updated the Milhouse builds URL.
+ - Removed the Rbej Gotham builds.
+
+3.7.0
+ - Fixed the issue with the new build check service failing with Helix builds.
+
+3.6.0
+ - Added Cuboxi.arm and imx6.arm build type overrides.
+
+3.5.1
+ - Fixed a script error caused by the Kodi rebrand.
+
+3.5.0
+ - Added an option to enable notifications of new official releases.
+ - Fixed the cancel pending update action.
+
+3.4.2
+ - Fixed a problem with DarkAngel2401 builds due to a change on the server.
+
+3.4.1
+ - Fixed a problem with the archiving of the tar files.
+
+3.4.0
+ - Removed the XBMCNightlyBuilds source which has not worked for some time.
+ - Official Snapshot Builds is now the default source.
+
+3.3.5
+ - Fixed a problem with DarkAngel2401 builds due to a change on the server.
+
+3.3.4
+ - Fixed a problem with the service part failing on some systems.
+
+3.3.3
+ - goo.gl short URLs can now be used as a custom URL.
+
+3.3.2
+ - Fixed a problem with updates not being applied if no manual updates
+   have previously been performed.
+
+3.3.1
+ - Fixed a broken dependency which caused the "Incompatible" message.
+
+3.3.0
+ - Added DarkAngel2401 Dual Audio Builds.
+ - Minor bug fixes.
+
+3.2.5
+ - Fixed the subdirectory setting for sources other than a custom url.
+
+3.2.4
+ - Fixed a script error when using XBMCNightlyBuilds.
+
+3.2.3
+ - Include the LICENSE.txt file.
+
+3.2.2
+ - Fixed another script error when using official releases.
+
+3.2.1
+ - Use an improved OpenELEC icon.
+
+3.2.0
+ - Added icons to indicate upgrades and downgrades.
+
+3.1.0
+ - Added a custom dialog to select builds.
+ - Fixed a script error when using official releases.
+ - Fixed a problem finding builds when using the Official Archive source.
+
+3.0.0
+ - Now requires OpenELEC 4.0
+ - Added an option to run a background progress dialog.
+ - Added an option to disable update file verification
+   which also means extraction is not required.
+ - Show progress of copy to archive.
+
+2.19.1
+ - Fixed a problem with XBMC Backup showing a dialog
+   instead of just running the backup automatically.
+
+2.19.0
+ - Fixed a problem with the Official Releases source.
+ - Renamed Official Daily Builds to Official Snapshot Builds.
+
+2.18.4
+ - Handle URL problems properly.
+
+2.18.3
+ - Fixed a downloading problem caused by the previous change.
+
+2.18.2
+ - Fixed a possible problem retrieving the build list from a custom URL.
+
+2.18.1
+ - Fixed a problem with installing the latest ATV builds.
+
+2.18.0
+ - Renamed xbmcnightlybuilds to XBMCNightlyBuilds (Nightly Builds) and
+   made this the default source.
+ - Added XBMCNightlyBuilds Official Stable Builds Mirror
+   as an alternative to the Official Archive source
+ - Updated the Official Daily Builds url to snapshots.openelec.tv
+
+2.17.4
+ - Updated xbmcnightlybuilds to point to mirror site.
+
+2.17.3
+ - Fixed a possible script error when using MilhouseVH Builds.
+
+2.17.2
+ - [RPi] Fixed notifications not showing after the reboot to re-enable overclocking.
+ - Set xbmcnightlybuilds server back to openelec.xbmcnightlybuilds.com
+
+2.17.1
+ - Use an alternative mirror for xbmcnightlybuilds as a temporary fix for
+   missing recent builds.
+
+2.17.0
+ - Added an option to backup XBMC data when installing a new build,
+   using the "XBMC Backup" add-on.
+
+2.16.2
+ - Fixed a problem with incomplete build lists for xbmcnightlybuilds.
+ - Fixed broken Official Archive source.
+
+2.16.1
+ - Create the directory for temporary downloads if it doesn't exist.
+
+2.16.0
+ - Handle the new build version format with the git shorthash (-r12345-g123abc.tar)
+
+2.15.2
+ - Fixed potential Raspberry Pi infinite reboot problem introduced in 2.15.1.
+
+2.15.1
+ - Put Raspberry Pi config.txt temporary backup in the add-on data directory
+   instead of /flash, to avoid potential conflicts with other code.
+
+2.15.0
+ - Added MilhouseVH builds.
+
+2.14.2
+ - Only check for archive directory if the option is enabled.
+
+2.14.1
+ - Fixed a dependencies not met error when installed with the latest Gotham nightlies.
+
+2.14.0
+ - Changed the selection of the build source and build type
+   to use a selection dialog instead of a spinner.
+
+2.13.0
+ - Added the current build to the new build notification dialog.
+
+2.12.2
+ - Fixed the scheduled build check that has caused XBMC to crash since 2.9.0.
+ - Fixed the "Check only on boot" option.
+ - Decreased the frequency of the new build check from 1 hour to 4 hours.
+
+2.12.1
+ - Fixed downloads from Official Archive.
+
+2.12.0
+ - Removed vicbitter Gotham build source.
+
+2.11.1
+ - Fixed possible duplicates in build list.
+ - Fixed wrong dates for very old releases.
+
+2.11.0
+ - Added an option to install a build type other than the currently installed one.
+   (ION, Intel, and Fusion now need the Generic build)
+ - Added a notification after cancelling a pending update.
+
+2.10.3
+ - Fixed a script error in the build check service when there is no network.
+
+2.10.2
+ - Fixed a problem showing the available builds after a new build check.
+
+2.10.1
+ - Fixed a problem with downloads from xbmcnightlybuilds.
+
+2.10.0
+ - Added an option to install builds from openelec.xbmcnightlybuilds.com
+
+2.9.0
+ - Added a settings action to cancel a pending update.
+
+2.8.0
+ - Added an option to install the Rbej popcornmix builds.
+
+2.7.1
+ - Fixed a problem that caused some official releases to be missing from the list.
+
+2.7.0
+ - Added an option to specify a timeout in seconds.
+
+2.6.1
+ - Fixed a problem caused by the 3.2.0 release when set to list official releases.
+
+2.6.0
+ - Improved the startup time when not using official releases.
+
+2.5.2
+ - Show a message if there is no Internet connectivity.
+
+2.5.1
+ - Show a message if there is an error during decompression of the build file.
+
+2.5.0
+ - Support an archive directory which can be a network location.
+
+2.4.3
+ - Added an option to install the latest extlinux as part of the update (not Raspberry Pi).
+
+2.4.2
+ - Identify Rbej builds when installed and simplify the display name.
+
+2.4.1
+ - Fixed a problem with repeated installed build notifications.
+
+2.4.0
+ - Changed the Rbej builds to use the new netlir.dk url.
+ - Put the source name in the build selection dialog heading.
+
+2.3.0
+ - Added Rbej Frodo builds.
+ - Removed hwat.be archive and replaced it with the official one at archive.openelec.tv.
+
+2.2.0
+ - Added an experimental option to temporarily disable Raspberry Pi overclocking during an update.
+   This helps to prevent SD card corruption.
+ - Added the Rbej builds as a new URL option.
+ - Changed the default URL option to "Official Releases".
+
+2.1.0
+ - Added a notification about a successful update on startup.
+
+2.0.11
+ - Fixed a problem with the gui hanging if the update files are already in place.
+ - Added a 10 second reboot timeout dialog instead of rebooting immediately.
+
+2.0.10
+ - Fixed a possible script error when set to "Official Releases".
+
+2.0.9
+ - Reduced the delay between starting the add-on and the busy indicator appearing.
+
+2.0.8
+ - Fixed a possible script error when using nightly build sources.
+
+2.0.7
+ - Fixed build list to also show uncompressed tar file builds.
+
+2.0.6
+ - Fixed a possible problem with bogus new build notifications.
+
+2.0.5
+ - Added http://hwat.be/openelec/official.archive as a new URL option.
+
+2.0.4
+ - Fixed a problem with date comparison of the installed build.
+ - Changed settings to allow the build list prompt to be completely disabled.
+
+2.0.3
+ - Added a setting to disable the restart confirmation.
+
+2.0.2
+ - Fixed a problem with the build check service crashing after 30 mins.
+ - Removed the build check interval setting (replaced with simpler options).
+ - More small modifications to the settings.
+
+2.0.1
+ - Fixed a problem with xbmc hanging on reboot/shutdown/suspend.
+
+2.0.0
+ - Added an option to periodically check if a newer build is available.
+ - Upgrade/downgrade logic is now always based on the date of the build/release.
+ - Improved the settings layout.
+ - Notifications now show the icon.
+
+1.1.7
+ - Made older releases available to install.
+ - Fixed problems with the busy dialog.
+
+1.1.6
+ - Added vicbitter's Gotham builds.
+
+1.1.5
+ - Official releases now have an associated date.
+
+1.1.4
+ - Fixed the slow startup problem.
+ - Fixed an issue with official daily build downloads.
+
+1.1.3
+ - Added back the option to install official releases.
+ - Fixed the url for Chris Swan's RPi builds.
+
+1.1.2
+ - Added the option to install official testing builds.
+
+1.1.1
+ - Removed the option to install official releases which was
+   broken after the website redesign.
+
+1.1.0
+ - Added the option to install official releases.
+
+1.0.9
+ - Added a progress bar for the md5 verification (slow on RPi).
+
+1.0.8
+ - Added a speed indicator to the progress bar.
+ - Worked around the missing progress dialog bug (trac #13467).
+ - Added verification of the md5 sums.
+
+1.0.7
+ - Now checks if update files are already in place when starting up.
+ - Added an icon for the addon.
+
+1.0.6
+ - Use a notification message to inform about the build
+   installing after a reboot.
+
+1.0.5
+ - Now select a URL using a source name instead of the URL itself.
+
+1.0.4
+ - Added the URL for the Xtreamer Ultra builds by incubus.
+ - Added a url subdirectory option.
+
+1.0.3
+ - The addon will now auto-update.
+
+1.0.2
+ - Updated the official build URL.
+ - Catch write errors and handle them with a popup message box.
+
+1.0.1
+ - Changed the addon id to script.openelec.devupdate.
+ - Added a debug logging setting.
+ - Better handle url errors by popping up a dialog message box and
+   either log the error cleanly, or open up the settings to attempt
+   to correct the problem.
+
+1.0.0
+ - Initial release.

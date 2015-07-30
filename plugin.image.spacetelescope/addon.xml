@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.spacetelescope" name="Hubble Space Telescope Images" version="0.0.1" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1" optional="false"/>
+    <import addon="script.module.html5lib" version="0.999" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary>A catalog of images from the Hubble space telescope.</summary>
+    <description>The Hubble Space Telescope is a collaboration between ESA and NASA. It's a long-term, space-based observatory. The observations are carried out in visible, infrared and ultraviolet light. In many ways Hubble has revolutionised modern astronomy, by not only being an efficient tool for making new discoveries, but also by driving astronomical research in general.</description>
+    <source>https://github.com/LS80/plugin.image.spacetelescope.git</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <disclaimer>ESA/Hubble images, videos and web texts are released under the Creative Commons Attribution 3.0 Unported license and may on a non-exclusive basis be reproduced without fee provided they are clearly and visibly credited. More information is available at http://spacetelescope.org/copyright</disclaimer>
+  </extension>
+</addon>

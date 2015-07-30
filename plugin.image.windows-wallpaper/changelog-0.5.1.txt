@@ -1,0 +1,24 @@
+0.5.1
+ - Fixed compatibility with Android/iOS/Mac OS X
+
+0.5.0
+ - Stopped the plugin showing under programs
+
+0.4.1
+ - Fixed a script error when run as a program
+
+0.4.0
+ - Set the default view mode to thumbnail
+
+0.3.0
+ - Refactored to be compatible with Helix Beta 1
+
+0.2.1
+ - Handle network problems
+
+0.2.0
+ - Support a network location for downloads
+
+0.1.0
+ - Initial release
+ 

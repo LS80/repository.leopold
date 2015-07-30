@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.leopold" name="Leopold's Add-ons" version="3.0.0" provider-name="Leopold">
+  <extension point="xbmc.addon.repository" name="Leopold's Repository">
+    <info compressed="false">https://raw.github.com/LS80/repository.leopold/master/addons.xml</info>
+    <checksum>https://raw.github.com/LS80/repository.leopold/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/LS80/repository.leopold/master</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Leopold's add-ons</summary>
+    <description>Download and install add-ons from Leopold's repository. Most of the add-ons in this repository are created and maintained by Leopold. Some add-ons are provided by others and merely hosted here for convenience.</description>
+    <platform>all</platform>
+    <website>http://ls80.github.io/repository.leopold/</website>
+  </extension>
+</addon>

@@ -1,0 +1,45 @@
+0.20.1
+ - Set gpu_mem_1024 to gpu_mem value if not set.
+
+0.20.0
+ - Added hdmi_edid_file setting and an action to dump the edid to /flash/edid.dat.
+ - Added config_hdmi_boost.
+ - Moved CEC settings to the new HDMI category.
+
+0.19.0
+ - Added support for RPi 2.
+
+0.18.0
+ - Increased the maximum values for arm_freq, core_freq and sdram_freq.
+
+0.17.0
+ - Handle gpu_mem for 256MB boards
+ - Fixed a bug when there is no existing config.txt
+
+0.16.0
+ - Added the Model B+ setting max_usb_current to output 1.2A through the USB ports.
+ - Fixed the reboot countdown progress bar.
+
+0.15.0
+ - Added hdmi_ignore_cec_init to disable initial active source message.
+
+0.14.0
+ - Added the "Force Composite" setting (hdmi_ignore_hotplug).
+
+0.13.0
+ - Changed overscan settings from numbers to sliders (-60 to +60)
+   so that negative values can be set.
+
+0.12.0
+ - Renamed None overclock preset to Disabled.
+   This now comments out overclock settings.
+ - Show a busy indicator while initialising the settings.
+
+0.11.0
+ - Show the settings values for the overclocking presets.
+
+0.10.0
+ - Added the "Colour space/range" setting (hdmi_pixel_encoding).
+
+0.9.0
+ - Initial version.

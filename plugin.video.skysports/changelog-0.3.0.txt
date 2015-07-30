@@ -1,0 +1,11 @@
+0.3.0
+ - Fixed broken video listings
+ - New icon using new logo
+
+0.2.0
+ - Use HLS streams
+ - Use better pagination
+ - Fixed duplicate videos
+
+0.1.0
+ - Initial release

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.windows-wallpaper" name="Windows Wallpaper" version="0.5.1" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.python" version="2.13.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1" optional="false"/>
+    <import addon="script.module.requests" version="2.3.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.python.library" library="script.py">
+    <provides/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en</language>
+    <summary>Desktop background images from windows.microsoft.com</summary>
+    <description>View and download desktop background images from windows.microsoft.com. Images are grouped by category.</description>
+    <source>https://github.com/LS80/plugin.image.windows-wallpaper.git</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
+</addon>
