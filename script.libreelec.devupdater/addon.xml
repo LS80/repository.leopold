@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.libreelec.devupdater"
        name="LibreELEC Dev Updater"
-       version="5.1.2"
+       version="6.0.0"
        provider-name="Leopold">
   <requires>
-    <import addon="xbmc.python" version="2.13.0"/>
-    <import addon="os.libreelec.tv" version="7.0" optional="false"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
-    <import addon="script.module.html5lib" version="0.999.0" optional="false"/>
-    <import addon="script.module.requests" version="2.3.0" optional="false"/>
-    <import addon="script.module.html2text" version="2015.6.21" optional="false"/>
-    <import addon="script.xbmcbackup" version="0.5.2" optional="false"/>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="os.libreelec.tv" version="9.80" optional="false"/>
+    <import addon="script.module.beautifulsoup4" version="4.8.2" optional="false"/>
+    <import addon="script.module.html5lib" version="1.0.1" optional="false"/>
+    <import addon="script.module.requests" version="2.22.0" optional="false"/>
+    <import addon="script.module.html2text" version="2020.1.16" optional="false"/>
+    <import addon="script.xbmcbackup" version="1.6.3" optional="false"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py"/>
   <extension point="xbmc.service" library="service.py" start="startup"/>
