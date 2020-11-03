@@ -2,7 +2,6 @@
 <addons><addon id="script.libreelec.devupdater" name="LibreELEC Dev Updater" provider-name="Leopold" version="6.0.0">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-    <import addon="os.libreelec.tv" optional="false" version="9.80" />
     <import addon="script.module.beautifulsoup4" optional="false" version="4.8.2" />
     <import addon="script.module.html5lib" optional="false" version="1.0.1" />
     <import addon="script.module.requests" optional="false" version="2.22.0" />
