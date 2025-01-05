@@ -27,7 +27,7 @@
     <news>Fixed Milhouse build information</news>
   </extension>
 </addon>
-<addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.2" provider-name="LS80">
+<addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.3" provider-name="LS80">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.31.0"/>
