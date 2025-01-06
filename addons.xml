@@ -1,54 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addons>
-<addon id="script.libreelec.devupdater" name="LibreELEC Dev Updater" provider-name="Leopold" version="6.0.0">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.beautifulsoup4" optional="false" version="4.8.2" />
-    <import addon="script.module.html5lib" optional="false" version="1.0.1" />
-    <import addon="script.module.requests" optional="false" version="2.22.0" />
-    <import addon="script.module.html2text" optional="false" version="2020.1.16" />
-    <import addon="script.xbmcbackup" optional="false" version="1.6.3" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.script" />
-  <extension library="service.py" point="xbmc.service" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>LibreELEC development build updater</summary>
-    <description>This add-on downloads LibreELEC update files ready to be installed on the next reboot. Select a predefined source or a custom source defined in the add-on settings, then choose from a list of available builds. Some sources provide full build details which can be viewed by pressing 'Info'.</description>
-    <disclaimer>Development builds often have major bugs and crashes can happen quite often. Always backup your userdata folder when installing development builds.</disclaimer>
-    <website>http://devupdater.leopold.me.uk</website>
-    <source>http://github.com/LS80/script.libreelec.devupdater.git</source>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-      <icon>icon.png</icon>
-      <screenshot>screenshots/builds.png</screenshot>
-      <screenshot>screenshots/build_details.png</screenshot>
-    </assets>
-    <news>Fixed Milhouse build information</news>
-  </extension>
-</addon>
-<addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.3" provider-name="LS80">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests" version="2.31.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en_GB">Video content from https://play.tottenhamhotspur.com.</summary>
-    <description lang="en_GB">SPURSPLAY is the official streaming platform of Tottenham Hotspur Football Club, offering fans exclusive access to a wide range of content, including live and on-demand videos.</description>
-    <disclaimer lang="en_GB">Some content requires a SPURSPLAY subscription.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>MIT</license>
-    <website>https://play.tottenhamhotspur.com</website>
-    <source>https://github.com/LS80/plugin.video.spursplay</source>
-    <assets>
-      <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-</addons>
+<addons><addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.4" provider-name="LS80">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.31.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Video content from https://play.tottenhamhotspur.com.</summary>
+        <description lang="en_GB">SPURSPLAY is the official streaming platform of Tottenham Hotspur Football Club, offering fans exclusive access to a wide range of content, including live and on-demand videos.</description>
+        <disclaimer lang="en_GB">Some content requires a SPURSPLAY subscription.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <website>https://play.tottenhamhotspur.com</website>
+        <source>https://github.com/LS80/plugin.video.spursplay</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
