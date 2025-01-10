@@ -1,4 +1,4 @@
-<addons><addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.5" provider-name="LS80">
+<addons><addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.6" provider-name="LS80">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.31.0" />
