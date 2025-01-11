@@ -10,8 +10,8 @@
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Leopold's add-ons</summary>
-    <description>Download and install add-ons from Leopold's repository. Most of the add-ons in this repository are created and maintained by Leopold. Some add-ons are provided by others and merely hosted here for convenience.</description>
+    <summary>Leopold's Kodi add-ons</summary>
+    <description>Install Kodi add-ons from Leopold's repository.</description>
     <platform>all</platform>
     <website>https://addons.leopold.me.uk</website>
     <assets>
