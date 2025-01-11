@@ -1,4 +1,24 @@
-<addons><addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.6" provider-name="LS80">
+<addons><addon id="repository.leopold" name="Leopold's Add-ons" version="4.0.0" provider-name="Leopold">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="Leopold's Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/LS80/repository.leopold/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/LS80/repository.leopold/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/LS80/repository.leopold/master</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Leopold's add-ons</summary>
+    <description>Download and install add-ons from Leopold's repository. Most of the add-ons in this repository are created and maintained by Leopold. Some add-ons are provided by others and merely hosted here for convenience.</description>
+    <platform>all</platform>
+    <website>https://addons.leopold.me.uk</website>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="plugin.video.spursplay" name="SPURSPLAY" version="0.2.6" provider-name="LS80">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.31.0" />
