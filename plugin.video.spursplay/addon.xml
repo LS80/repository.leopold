@@ -11,7 +11,7 @@
         <platform>all</platform>
         <summary lang="en_GB">Video content from https://play.tottenhamhotspur.com.</summary>
         <description lang="en_GB">SPURSPLAY is the official streaming platform of Tottenham Hotspur Football Club, offering fans exclusive access to a wide range of content, including live and on-demand videos.</description>
-        <disclaimer lang="en_GB">Some content requires a SPURSPLAY subscription.</disclaimer>
+        <disclaimer lang="en_GB">This is an UNOFFICIAL plugin NOT endorsed by Tottenham Hotspur. Some content requires a SPURSPLAY subscription.</disclaimer>
         <language>en</language>
         <platform>all</platform>
         <license>MIT</license>
